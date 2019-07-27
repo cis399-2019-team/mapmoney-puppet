@@ -61,7 +61,7 @@ class user {
 
 	user { "lucas":
 	ensure => present,
-	home => "/home/lucas"
+	home => "/home/lucas",
 	managehome => true
 	}
 
