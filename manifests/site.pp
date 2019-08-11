@@ -1,11 +1,4 @@
-node ip-10-0-8-212 {
-	include puppet
-	include sshd
-	include apache2
-	include user
-}
-
-node ip-10-0-8-63 {
+node ip-10-0-8-234 {
 	include puppet
 	include sshd
 	include apache2
